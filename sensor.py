@@ -28,7 +28,7 @@ SENSOR_TYPES = {
     'active': ['Active', None],
     'download_speed': ['Down Speed', 'MB/s'],
     'upload_speed': ['Up Speed', 'MB/s'],
-    'unfinished_tasks': ['Unfinished Tasks', None]
+    'unfinished_tasks': ['Unfinished Tasks', Tasks]
 }
 
 PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend({
