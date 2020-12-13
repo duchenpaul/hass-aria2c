@@ -1,0 +1,9 @@
+- platform: Aria2c
+  host: http://192.168.123.1
+  port: 6800
+  token: YOUR_TOKEN
+  monitored_variables:
+    - 'download_speed'
+    - 'upload_speed'
+    - 'active'
+    - 'unfinished_tasks'
