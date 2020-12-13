@@ -25,10 +25,10 @@ DEFAULT_NAME = 'Aria2c'
 DEFAULT_PORT = 6800
 
 SENSOR_TYPES = {
-    'active': ['Active', Tasks],
+    'active': ['Active', 'Tasks'],
     'download_speed': ['Down Speed', 'MB/s'],
     'upload_speed': ['Up Speed', 'MB/s'],
-    'unfinished_tasks': ['Unfinished Tasks', Tasks]
+    'unfinished_tasks': ['Unfinished Tasks', 'Tasks']
 }
 
 PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend({
